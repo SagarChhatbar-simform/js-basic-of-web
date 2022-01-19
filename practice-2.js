@@ -1,7 +1,7 @@
 var teacher = "sagar";
 
 (function allteach() {
-    var teacher = "hemil";
+    var teacher = "tom";
     console.log(teacher);
 })();//this is an example of IIFE (immediatly invoked function expresion)
 console.log(teacher);
@@ -11,7 +11,7 @@ console.log(teacher);
 var teacher = "sagar";
 
 {
-    let teacher = "hemil"; //let can be only used inside a scope 
+    let teacher = "tom"; //let can be only used inside a scope 
     console.log(teacher); 
 }
 
